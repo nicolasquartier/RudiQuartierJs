@@ -1,10 +1,10 @@
 "use strict";
 
 (function() {
-  angular.module("kristDepuydt.core").factory("customHeaderService", function() {
+  angular.module("rudiQuartier.core").factory("customHeaderService", function() {
     return {
       request: function(config) {
-        config.headers["myHeader"] = "Krist Depuydt";
+        config.headers["myHeader"] = "Rudi Quartier";
         return config;
       }
     }

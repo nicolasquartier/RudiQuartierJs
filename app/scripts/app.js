@@ -1,7 +1,7 @@
 "use strict";
 
 (function() {
-  angular.module("kristDepuydt", ["kristDepuydt.core", "kristDepuydt.config"])
+  angular.module("rudiQuartier", ["rudiQuartier.core", "rudiQuartier.config"])
     .config(function(appVersion) {
       console.log("config movieCatalog" + appVersion);
     });

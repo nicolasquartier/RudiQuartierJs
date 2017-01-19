@@ -1,7 +1,7 @@
 "use strict";
 
 (function() {
-  angular.module("kristDepuydt")
+  angular.module("rudiQuartier")
     .controller("detailCtrl", DetailCtrl);
 
   function DetailCtrl($routeParams, $http, apiUrl, dataService) {

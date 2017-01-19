@@ -1,20 +1,20 @@
 "use strict";
 
 (function() {
-  angular.module("kristDepuydt.core", ["ngRoute", "angular-loading-bar"])
+  angular.module("rudiQuartier.core", ["ngRoute", "angular-loading-bar"])
     .config(function ($routeProvider, $httpProvider) {
 
       $httpProvider.interceptors.push("customHeaderService");
 
       $routeProvider.when("/", {
-        templateUrl: "views/keramiek.html",
-        controller: "keramiekCtrl",
-        controllerAs: "keramiekCtrl"
+        templateUrl: "views/beeld.html",
+        controller: "beeldCtrl",
+        controllerAs: "beeldCtrl"
       });
-      $routeProvider.when("/keramiek", {
-        templateUrl: "views/keramiek.html",
-        controller: "keramiekCtrl",
-        controllerAs: "keramiekCtrl"
+      $routeProvider.when("/beeld", {
+        templateUrl: "views/beeld.html",
+        controller: "beeldCtrl",
+        controllerAs: "beeldCtrl"
       });
       $routeProvider.when("/sculptuur", {
         templateUrl: "views/sculptuur.html",

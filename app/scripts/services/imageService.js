@@ -1,7 +1,7 @@
 "use strict";
 
 (function() {
-  angular.module("kristDepuydt.core").factory("imageService", function() {
+  angular.module("rudiQuartier.core").factory("imageService", function() {
     return {
 
       request: function(config) {
