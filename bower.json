@@ -1,0 +1,23 @@
+{
+  "name": "demo",
+  "version": "0.0.0",
+  "dependencies": {
+    "angular-route": "^1.5.0",
+    "bootstrap": "^3.3.6",
+    "angular": "^1.5.0",
+    "Bootstrap-Confirmation": "bootstrap-confirmation#*",
+    "angular-loading-bar": "^0.8.0"
+  },
+  "devDependencies": {},
+  "appPath": "app",
+  "moduleName": "demoApp",
+  "overrides": {
+    "bootstrap": {
+      "main": [
+        "less/bootstrap.less",
+        "dist/css/bootstrap.css",
+        "dist/js/bootstrap.js"
+      ]
+    }
+  }
+}
