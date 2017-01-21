@@ -16,11 +16,6 @@
         controller: "beeldCtrl",
         controllerAs: "beeldCtrl"
       });
-      $routeProvider.when("/sculptuur", {
-        templateUrl: "views/sculptuur.html",
-        controller: "sculptuurCtrl",
-        controllerAs: "sculptuurCtrl"
-      });
       $routeProvider.when("/about", {
         templateUrl: "views/about.html",
         controller: "aboutCtrl",
@@ -31,10 +26,10 @@
         controller: "ContactCtrl",
         controllerAs: "ContactCtrl"
       });
-      $routeProvider.when("/rudiquartier", {
-        templateUrl: "views/rudiquartier.html",
-        controller: "rudiquartierCtrl",
-        controllerAs: "rudiquartierCtrl"
+      $routeProvider.when("/kristdepuydt", {
+        templateUrl: "views/kristdepuydt.html",
+        controller: "kristdepuydtCtrl",
+        controllerAs: "kristdepuydtCtrl"
       });
 
       $routeProvider.when("/exposities", {

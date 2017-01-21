@@ -2,9 +2,9 @@
 
 (function() {
   angular.module("rudiQuartier")
-    .controller("keramiekCtrl", KeramiekCtrl);
+    .controller("beeldCtrl", BeeldCtrl);
 
-  function KeramiekCtrl($http, apiUrl, $location, dataService) {
+  function BeeldCtrl($http, apiUrl, $location, dataService) {
     var that = this;
 
     (function() {
