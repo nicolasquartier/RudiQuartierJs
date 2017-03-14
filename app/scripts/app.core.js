@@ -16,6 +16,11 @@
         controller: "beeldCtrl",
         controllerAs: "beeldCtrl"
       });
+      $routeProvider.when("/letterkappen", {
+        templateUrl: "views/letterkappen.html",
+        controller: "letterkappenCtrl",
+        controllerAs: "letterkappenCtrl"
+      });
       $routeProvider.when("/about", {
         templateUrl: "views/about.html",
         controller: "aboutCtrl",
@@ -23,8 +28,8 @@
       });
       $routeProvider.when("/contact", {
         templateUrl: "views/contact.html",
-        controller: "ContactCtrl",
-        controllerAs: "ContactCtrl"
+        controller: "contactCtrl",
+        controllerAs: "contactCtrl"
       });
       $routeProvider.when("/kristdepuydt", {
         templateUrl: "views/kristdepuydt.html",

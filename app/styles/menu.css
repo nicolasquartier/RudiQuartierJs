@@ -1,10 +1,12 @@
 @font-face {
   font-family: 'simplifica';
   src: url('../fonts/simplifica.ttf');
-  src: url('../fonts/simplifica.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */ url('../fonts/simplifica.ttf') format('truetype'); /* Safari, Android, iOS */
+  src: url('../fonts/simplifica.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('../fonts/simplifica.ttf')  format('truetype'); /* Safari, Android, iOS */
 }
 
 header {
+  z-index: -1;
   height: 55px;
   border-bottom: 1px solid #888;
   max-width: 960px;
@@ -19,17 +21,24 @@ header {
   padding-left: 10px;
 }
 
+.header .container p a {
+  display: block;
+  width: 200px;
+}
+
 .header .container p a:hover {
   text-decoration: none;
   color: #848484;
 }
 
-/*.header .container p {*/
-  /*text-transform: uppercase;*/
-  /*font-size: 50px;*/
-  /*!*font-size: 6.5vw;*!*/
-  /*display: inline;*/
-/*}*/
+.header .container p {
+  text-transform: uppercase;
+  font-size: 50px;
+  /*font-size: 6.5vw;*/
+  display: inline;
+  position: relative;
+  z-index: -2;
+}
 
 nav {
   text-align: left;
@@ -46,9 +55,10 @@ nav .container {
 
 nav ul {
   padding: 10px 0 0 0;
-  margin-left: -65px;
   margin: 0 auto;
   max-width: 980px;
+  position: relative;
+  left: -15px;
 }
 
 nav ul li {
