@@ -1,0 +1,20 @@
+Hi,
+I want to create my own non-commercial site with my own domain,
+where I can display all my photos and for this I would invoke calls to the rest api.
+
+It would work as a kind of a photo booth. At the home page, visitors would see an overview of about 20 pictures.Visitors can click a specific photo and then it would zoom in to that picture, so you can see it in detail.
+The photo booth is to show all my pictures of my sculptures that I make by hand.
+
+Thanks in advance!
+
+Document API:
+https://www.flickr.com/services/api/
+	flickr.photosets.getList 	- To get all photoSet Ids
+	flickr.photosets.getPhotos 	- To get all Photos in photoSet
+
+
+Key:
+6337acd481870286e3d1087590ae665f
+
+Secret:
+1ee7d48c0615e6d0
